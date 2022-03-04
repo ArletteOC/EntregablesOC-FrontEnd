@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAW pedido</title>
+</head>
+<body>
+<img src = "img/MAW-LOGO.WHITE.png" alt="Imagotipo de Make a Wish Bakery" width="150 px">
+    <h1>¡Make a Wish!</h1>
+    <form action="pedido.js"></form>
+
+    <h2>Elige tu pastel</h2>
+    <input type="checkbox" id="milhojas" name="pastel" value="pastel">
+    <lebel for="pastel">Mil Hojas</lebel><br>
+        <input type="radio" id="4 a 5 pax" name="pax" value="pax">
+        <label for="4 a 5 pax">Para 4 a 5 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br>
+        <input type="radio" id="6 a 10 pax" name="pax" value="pax">
+        <label for="6 a 10 pax">Para 6 a 10 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br><br>
+
+    <input type="checkbox" id="sabanadealmendras" name="pastel" value="pastel">
+    <lebel for="pastel">Sabana de Almendras</lebel><br>
+        <input type="radio" id="4 a 5 pax" name="pax" value="pax">
+        <label for="4 a 5 pax">Para 4 a 5 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br>
+        <input type="radio" id="6 a 10 pax" name="pax" value="pax">
+        <label for="6 a 10 pax">Para 6 a 10 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br><br>
+        
+    <input type="checkbox" id="3leches" name="pastel" value="pastel">
+    <lebel for="pastel">3 Leches</lebel><br>
+        <input type="radio" id="4 a 5 pax" name="pax" value="pax">
+        <label for="4 a 5 pax">Para 4 a 5 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br>
+        <input type="radio" id="6 a 10 pax" name="pax" value="pax">
+        <label for="6 a 10 pax">Para 6 a 10 personas</label>
+        <input type="number" id="cuantos" name="cuantos" value="cuantos">
+        <label for="cuantos">¿Cuántos pasteles?</label><br><br>
+
+        
+    <h2>Decoración</h2>
+
+    <p>¿Deseas letras de HBD?</p>
+    <input type="radio" id="HBD fondant" name="HBD" value="HBD fondant">
+    <label for="HBD fondant"> "HBD" letras con fondant </label><br>
+    <input type="radio" id="HBD pastelera" name="HBD" value="HBD de pondant">
+    <label for="HBD con crema pastelera"> "HBD" letras con crema pastelera </label><br>
+    <input type="radio" id="HBD chocolate" name="HBD" value="HBD chocolate">
+    <label for="HBD chocolate"> "HBD" letras de chocolate </label><br><br>
+    
+    <p>¿Deseas agregar un mensaje?</p>
+    <p>Agrega nombre, nickname o dedicatoria no mayor a 10 caracteres</p>
+    <input type="text" id="Cumpleañero" name="Cumpleañero" maxlength="10"><br><br>
+    
+    <p>Ponte cretivo <br> Elige uno o más toppings</p>
+    <input type="checkbox" id="chispas" name="chispas" value="chispas">
+    <label for="chispas"> Chispas de colores </label><br>
+    <input type="checkbox" id="perlitas" name="perlitas" value="perlitas">
+    <label for="perlitas"> Perlas decorativas </label><br>
+    <input type="checkbox" id="confeti" name="confeti" value="confeti">
+    <label for="confeti"> Confeti grado alimenticio de colores </label><br><br>
+
+<hr>
+    <h2>Personalización</h2>
+    <p>Pan</p>
+    <input type="radio" id="vainilla" name="pan" value="pan">
+    <lebel for="vainilla">Vainilla</lebel><br>
+        <label for="adicional">¿Deseas combinar?</label>
+        <input list="adicional">
+        <datalist id="adicional">
+            <option value="Chocolate"></option>
+            <option value="Almendras"></option>
+        </datalist><br>
+    
+    <input type="radio" id="chocolate" name="pan" value="pan">
+    <lebel for="chocolate">Chocolate</lebel><br>
+            <label for="adicional">¿Deseas combinar?</label>
+            <input list="adicional">
+            <datalist id="adicional">
+                <option value="Vainilla"></option>
+                <option value="Almendras"></option>
+            </datalist><br>
+
+    <input type="radio" id="almendras" name="pan" value="pan">
+    <lebel for="Almendras">Almendras</lebel>
+        <label for="adicional">¿Deseas combinar?</label>
+        <input list="adicional">
+        <datalist id="adicional">
+            <option value="Vainilla"></option>
+            <option value="Chocolate"></option>
+        </datalist><br>
+
+    <p>Relleno</p>
+    <label for="relleno">Elige el relleno</label>
+    <selecte id="relleno" name="relleno">
+        <option vlue="Mermelada de Chabacano"></option>
+        <option vlue="Mermelada de Frambuesa"></option>
+        <option vlue="Mermelada de Fresa"></option>
+    </selecte>
+
+     <p>Decoración</p>
+     <input type="radio" id="fondantliso" name="fondant" value="fondantliso">
+     <label for="fondantliso">Fondant liso, un solo tono</label><br>
+        <label for="color">¿Qué tono deseas?</label>   
+        <input type="color" id="color1" name="color1"><br>
+    <p>Ponte creativo <br> Elige uno o más toppings</p>
+        <input type="checkbox" id="chispas" name="chispas" value="chispas">
+        <label for="chispas"> Chispas de colores </label><br>
+        <input type="checkbox" id="perlitas" name="perlitas" value="perlitas">
+        <label for="perlitas"> Perlas decorativas </label><br>
+        <input type="checkbox" id="confeti" name="confeti" value="confeti">
+        <label for="confeti"> Confeti grado alimenticio de colores </label><br><br>
+    
+    <input type="radio" id="tematico" name="fondant" value="tematico">
+    <label for="tematico">Fondant Temático</label><br>
+        <label for="texto">Nombre del personaje</label><br>
+        <input type="texto" id="texto" name="texto"><br>
+    <p>Carga una foto como referencia del diseño que deseas.</p>
+    <input type="file" id="archivo1" name="archivo1" img><br><br>
+        
+    <hr>
+<h2>Datos de contacto</h2>  
+<label for="Nombre">Nombre</label><br>
+<input type="text" id="Nombre" name="Nombre" placeholder="NombreCompleto"><br><br>
+
+<label for="correo1">Mail</label><br>
+<input type="email" id="correo1" name="correo1"><br><br>
+    
+<label for="numero1">Teléfono</label><br>
+<input type="number" id="numero1" name="numero1"><br><br>
+
+<label for="numero1">Número Celular</label><br>
+<input type="number" id="numero1" name="numero1"><br><br>
+        
+    
+<input type="submit" id="boton2" name="boton2" value="Enviar" onclick="alert('Enviando Deseos');"><br> <br>
+<input type="reset"><br>
+</body>

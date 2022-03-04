@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAW dashboard</title>
+</head>
+<body>
+    <img src = "img/MAW-LOGO.WHITE.png" alt="Imagotipo de Make a Wish Bakery" width="150 px">
+    <h1>Make a Wish</h1>
+    <h2>Bienvenido</h2>
+
+
+</body>
